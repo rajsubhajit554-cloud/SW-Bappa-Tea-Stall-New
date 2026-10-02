@@ -16,9 +16,9 @@
     /* Soft Warm White for hover cards */
     --bg-cream: #2D241E;
     /* Dark Roast Coffee for contrast accents */
-    --accent-gold: #D97706;
+    --accent-gold: #098ffc;
     /* Rich Golden Amber */
-    --accent-amber: #EA580C;
+    --accent-amber: #0c7fea;
     /* Vibrant Sunset Amber/Orange */
     --accent-light: #F59E0B;
     /* Bright Warm Gold Accent */
@@ -112,11 +112,11 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(250, 247, 242, 0.94);
+    background: rgb(0, 0, 0);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     z-index: 1000;
-    border-bottom: 1px solid rgba(201, 162, 75, 0.2);
+    border-bottom: 1px solid rgba(255, 174, 0, 0.877);
     box-shadow: 0 4px 25px rgba(180, 100, 30, 0.1);
     transition: var(--transition);
 }
